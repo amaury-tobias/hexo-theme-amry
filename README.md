@@ -43,7 +43,7 @@ Coloca las imágenes en `source/images` :
 v0.9.1 May 2 2019
 - Se actualizo el layout para los blogs para dar mas consistencia
 - corrección en el Layout de Tags para mostrar el tag actual
-- Corrección en los elementos "a" para mostrar color de link
+- Corrección en los elementos `<a>` para mostrar color de link
 v0.8.0 Mar 15 2019
 - Desactivados comentarios Disqus (aun funcionales) para respetar la privacidad de los usuarios
 - Bulma update to 0.7.4
