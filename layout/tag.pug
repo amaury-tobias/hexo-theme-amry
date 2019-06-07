@@ -19,4 +19,4 @@ block content
         each tagP in post.tags.toArray()
           if (tagP.name == page.tag)
             div
-              a.is-link(href=url_for(post.path))=post.title
+              a(href=url_for(post.path))=post.title

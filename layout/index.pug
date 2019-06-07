@@ -18,4 +18,4 @@ block content
     .container.has-text-centered
       each post in site.posts.sort('date', -1).toArray()
         div
-          a.is-link(href=url_for(post.path))=post.title
+          a(href=url_for(post.path))=post.title
